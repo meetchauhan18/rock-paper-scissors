@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Exo:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SixtyFour', sans-serif;
+}
+
+/* Google Fonts */
+
+.header{
+    width: 100%;
+    height: 15vmin;
+    background-color: #2B4162;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+
+#title{
+    color: #F4FFFD;
+}
+
+.main-container{
+    width: 100%;
+    height: 85vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10vmin;
+    align-items: center;
+    background-color: #2B4162;
+}
+
+.userChoice-container{
+    width: 45%;
+    height: 30vmin;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 120px;
+    background-color: #FA9F42;
+}
+
+.userChoice-container img{
+    width: 26vmin;
+    height: 26vmin;
+    cursor: pointer;
+}
+
+.score-board{
+    width: 45%;
+    height: 10vmin;
+    display: flex;
+    gap: 11px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.score{
+    font-size: 20px;
+    color: #F4FFFD;
+    font-weight: 700;
+}
+
+#user-score{
+    color: #FA9F42;
+    font-weight: 700;
+}
+
+#computer-score{
+    color: #FA9F42;
+    font-weight: 700;    
+}
+
+.result{
+    height: 10vmin;
+    width: 20%;
+    background-color: #FA9F42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 17px;
+    color: #F4FFFD;
+    font-weight: 700;
+}
